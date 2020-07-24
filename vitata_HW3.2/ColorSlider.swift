@@ -21,7 +21,7 @@ struct ColorSlider: View {
                 .accentColor(sliderType)
             TextField("255", value: $value, formatter: NumberFormatter())
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .keyboardType(UIKeyboardType.numberPad)
+                //.keyboardType(UIKeyboardType.numberPad)
                 .frame(width: 55)
                 .multilineTextAlignment(.trailing)
         }
